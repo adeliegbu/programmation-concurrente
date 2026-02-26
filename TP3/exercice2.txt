@@ -1,0 +1,13 @@
+wc : renvoie le nombre de lignes, de mots puis de caractères toto
+
+sort : trie les lignes par ordre alphabétique (sort -r trie à l'envers)
+
+tail : renvoie les 10 dernières lignes (tail -n 3 renvoie seulement les 3 dernières)
+toto
+
+
+sort < exercice2.txt > exercice2_trie.txt : ça trie les lignes de exercice2.txt puis écrit le résultat dans le fichier exercice2_trie.txt (qui est créé ou écrasé)
+
+sort fichier | grep toto | wc –l ; ça trie exercice2.txt, garde seulement les lignes contenant "toto" et renvoie combien il y en a
+
+toto
